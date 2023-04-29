@@ -61,7 +61,7 @@ namespace WEEK9_10_PROJECT
             DataTable database = new DataTable();
             adapter.Fill(database);
             dataGridView1.DataSource = database;
-
+            
 
         }
     /// /////////////////////////update
